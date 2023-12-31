@@ -1,0 +1,83 @@
+/* Write your CSS here */
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Bree Serif';
+  box-sizing: border-box;
+}
+
+.bg-container {
+  background: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  min-height: 100vh;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.search-container {
+  border: 1px solid #7b8794;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+  border-radius: 5px;
+  height: 37px;
+  border-color: #7b8794;
+  padding: 5px;
+  margin-top: 30px;
+}
+
+.search-input {
+  height: 30px;
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  padding-left: 8px;
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+::placeholder {
+  color: #7b8794;
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+.search-icon {
+  width: 25px;
+  padding: 2px;
+  margin: 2px;
+}
+
+.list-container {
+  width: 270px;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-top: 30px;
+  border: 1px solid #000;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.app-container {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    width: 60%;
+  }
+}

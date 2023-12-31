@@ -1,0 +1,38 @@
+/* Write your CSS here */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.app-list-container {
+  list-style: none;
+  background-color: #ffffff;
+  width: 40%;
+  height: 130px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .app-list-container {
+    width: 18%;
+    height: 150px;
+  }
+}
+
+.app-icon {
+  width: 55%;
+}
+
+.app-name {
+  font-weight: bold;
+  margin-top: 10px;
+  color: #1e293b;
+  font-size: 13px;
+}

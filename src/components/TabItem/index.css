@@ -1,0 +1,32 @@
+/* Write your CSS here */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  padding-bottom: 5px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #7b8794;
+  font-size: 16px;
+}
+.list-element {
+  width: 25%;
+}
+
+.selected-btn {
+  border-color: #2563eb;
+  border-bottom: 2px solid #2563eb;
+  color: #2563eb;
+}
